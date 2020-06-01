@@ -1,0 +1,16 @@
+PODS:
+  - WDNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - WDNetWorking (from `lib/WDNetWorking`)
+
+EXTERNAL SOURCES:
+  WDNetWorking:
+    :path: lib/WDNetWorking
+
+SPEC CHECKSUMS:
+  WDNetWorking: c94e6f29df0d4f05b594edaefc9a04125e3f9673
+
+PODFILE CHECKSUM: 58cc462406db08695ca2ce839f144b937d3faef9
+
+COCOAPODS: 1.7.5

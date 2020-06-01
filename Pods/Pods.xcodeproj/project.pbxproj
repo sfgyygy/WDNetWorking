@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00776E74EC2AF33CAF77E6E17CB103CA /* WDHttpHelpr.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C12EB3432E3D8F8751D734DED23C20E /* WDHttpHelpr.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0302B192034BBC2390CBFF555222F143 /* WDHttpHelpr.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA55E48ABB9427F828309126A600C81 /* WDHttpHelpr.m */; };
+		25B9E9A15B53F65CD5CE71640A31CA5A /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D315B2290AAF0A21BCA54298EA2E06 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39FA6538195164B5988CA2CD44D6CCA6 /* WDEncryptionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FDB4DD0BFCE3B95896988205D306D5 /* WDEncryptionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4ABA4722F7B3155EFEB4A54ED439D1A8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A345100C9D9F790EF991E89B099CDF /* AFSecurityPolicy.m */; };
+		4ABC2B5241E459DAB5252580E655980A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB06BF28B747C3CEAB4F92CD9CACD22 /* AFURLRequestSerialization.m */; };
+		4EA9DE5D15408E9B67B5B5833FB51D93 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC9558D09F30DD922CE58473AE6AE2 /* AFHTTPSessionManager.m */; };
+		55E01D08A6C9753CE3E31B7631D013D7 /* WDHttpLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B4B85AC8D17CC56369C61A8779C32B /* WDHttpLogin.m */; };
+		60EE54C04D0830D86C22BD085A6E1F9B /* WDHttpHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E48081087472C547AD2A8F9F37472C0 /* WDHttpHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6954629D2F0ECFF52788A3E6235FDA8C /* WDHttpErrorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D521B598BBC565DB2AB786D844059D /* WDHttpErrorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B3390FA04CDD036C50D17118B049085 /* Pods-WDHttpManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E50CDDF3BEEDE57DBA4EE08058E86BFF /* Pods-WDHttpManager-dummy.m */; };
+		726E461B0EFB491377952017D4F6D11E /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0774D52A19934A5953D8E6C28771FBA6 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E64A331B283B38A4EFAA7F2C5AA1B3D /* WDHttpLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = EA419714767989DD27D1A2943A48EE53 /* WDHttpLogin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8292D199E7904B6EECF3130FE5C10F26 /* WDHttpErrorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 677012B76044386EB7E6B48838B959E4 /* WDHttpErrorManager.m */; };
+		84CC5760A7B931B426EA414CC76891B4 /* WDHttpPromptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2EFACF8A822EB1A5B57BFA132BF2D6 /* WDHttpPromptManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F0FC0CB1F0A2E95DB4E6FB0AC6BFFFF /* WDEncryptionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CB11FE3A595BBCCBBD6DF7F694ECA5 /* WDEncryptionManager.m */; };
+		932F6F992E8E609A788F9CCA3706DFD4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A5810BDE7CB0B6DCB8B9666F726F6C45 /* AFURLSessionManager.m */; };
+		9584D1F9A18F202B1DE1C2AB07F6A5EC /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C291D951028FF14CEA9457355C9EF69 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9793020DEDA342E9770EE53E6CDAFDD7 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBEFC47642A65173D95048567D7CEC7 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A91AC3A752482530F9186A9357C8FA49 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBE627990D731EDA68743546CB2A0BD /* AFURLResponseSerialization.m */; };
+		B5C53E40848BD1172972768EF7A110CC /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB0B3F969D1D86F1471D5A056BF6DB1 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BCDD31000C59DAEC98CA9484DED413EB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9763664ECB622B379F955AA69F8569 /* AFNetworkReachabilityManager.m */; };
+		C42F67B39176E1D47B798988B993E821 /* WDHttpManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD2F777DC9210021586D578B1C19565 /* WDHttpManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF0D50008E882FCC6BB54C3285E0A095 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 37CA68D9565FC4203403488A4D0CA4E1 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0830E63CD58F46286E74100C0F5190E /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B98BF5724EAE8E194F8DBD8EFB66734 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0C5598DBCF1F8C5C60DCFC16155B99E /* WDHttpPromptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D93B9C313B1761553C1365428C000 /* WDHttpPromptManager.m */; };
+		E2BD9A871982540A6CB7D205ECA2EF3D /* WDHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E4EDCEABB91D2E65570943D32D3BD /* WDHttpManager.m */; };
+		F38074B203FC1799278AACE4A16EE301 /* WDNetWorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A96F95D102779423C8D04E9A3C29D7B /* WDNetWorking-dummy.m */; };
+		FEB05D71FC5C8697629A0953BC9B6CCB /* WDHttpLoginUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A62FF0E414274818E7A95AF5DE7168B /* WDHttpLoginUrl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		936545FB19963561DE7B4C43EF7EC1D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D474E0F4A046153EA46AFEC0EA2995;
+			remoteInfo = WDNetWorking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0607EA5237779F73ED83BD6ED96AB1CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0774D52A19934A5953D8E6C28771FBA6 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		1E48081087472C547AD2A8F9F37472C0 /* WDHttpHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDHttpHeader.h; sourceTree = "<group>"; };
+		22FDB4DD0BFCE3B95896988205D306D5 /* WDEncryptionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDEncryptionManager.h; sourceTree = "<group>"; };
+		36F5CEEBD3E433F7F4E3716AB016EF5D /* Pods-WDHttpManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WDHttpManager-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37CA68D9565FC4203403488A4D0CA4E1 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		398A432685D515B26E6DE92F0CDD9D8B /* Pods-WDHttpManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WDHttpManager-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A96F95D102779423C8D04E9A3C29D7B /* WDNetWorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WDNetWorking-dummy.m"; sourceTree = "<group>"; };
+		3B98BF5724EAE8E194F8DBD8EFB66734 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		3C12EB3432E3D8F8751D734DED23C20E /* WDHttpHelpr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDHttpHelpr.h; sourceTree = "<group>"; };
+		3EBEFC47642A65173D95048567D7CEC7 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		41412E0E97522B95DF9697ED2A7C7FB0 /* WDNetWorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WDNetWorking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C291D951028FF14CEA9457355C9EF69 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		5C9E4EDCEABB91D2E65570943D32D3BD /* WDHttpManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDHttpManager.m; sourceTree = "<group>"; };
+		677012B76044386EB7E6B48838B959E4 /* WDHttpErrorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDHttpErrorManager.m; sourceTree = "<group>"; };
+		6A9D93B9C313B1761553C1365428C000 /* WDHttpPromptManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDHttpPromptManager.m; sourceTree = "<group>"; };
+		71D315B2290AAF0A21BCA54298EA2E06 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		7A62FF0E414274818E7A95AF5DE7168B /* WDHttpLoginUrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDHttpLoginUrl.h; sourceTree = "<group>"; };
+		7E9EB56B28EE3C1B86BC583E5EC81CE9 /* libWDNetWorking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWDNetWorking.a; path = libWDNetWorking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EB06BF28B747C3CEAB4F92CD9CACD22 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		85EA0ADD406A5464EE4906C61F865D39 /* WDNetWorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WDNetWorking-prefix.pch"; sourceTree = "<group>"; };
+		884A8EDDCBAEDD33CFC66E0536F5A02B /* WDNetWorking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WDNetWorking.xcconfig; sourceTree = "<group>"; };
+		9AD2F777DC9210021586D578B1C19565 /* WDHttpManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDHttpManager.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F2EFACF8A822EB1A5B57BFA132BF2D6 /* WDHttpPromptManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDHttpPromptManager.h; sourceTree = "<group>"; };
+		A2A345100C9D9F790EF991E89B099CDF /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A5810BDE7CB0B6DCB8B9666F726F6C45 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		C2319DB48470DB441E7E06D764B98590 /* Pods-WDHttpManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDHttpManager.debug.xcconfig"; sourceTree = "<group>"; };
+		C6D521B598BBC565DB2AB786D844059D /* WDHttpErrorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDHttpErrorManager.h; sourceTree = "<group>"; };
+		CA9763664ECB622B379F955AA69F8569 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CDA55E48ABB9427F828309126A600C81 /* WDHttpHelpr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDHttpHelpr.m; sourceTree = "<group>"; };
+		CEB0B3F969D1D86F1471D5A056BF6DB1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		D1B4B85AC8D17CC56369C61A8779C32B /* WDHttpLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDHttpLogin.m; sourceTree = "<group>"; };
+		DEBE627990D731EDA68743546CB2A0BD /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		DF19F6AE223FD57C0F3D94406658E4D9 /* libPods-WDHttpManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WDHttpManager.a"; path = "libPods-WDHttpManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50CDDF3BEEDE57DBA4EE08058E86BFF /* Pods-WDHttpManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WDHttpManager-dummy.m"; sourceTree = "<group>"; };
+		E7CB11FE3A595BBCCBBD6DF7F694ECA5 /* WDEncryptionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WDEncryptionManager.m; sourceTree = "<group>"; };
+		E7F8ADE3A5192D85774677CB10788DE8 /* Pods-WDHttpManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WDHttpManager.release.xcconfig"; sourceTree = "<group>"; };
+		EA419714767989DD27D1A2943A48EE53 /* WDHttpLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WDHttpLogin.h; sourceTree = "<group>"; };
+		ED9DF68A7F133411B86243CE8463EA44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FFFC9558D09F30DD922CE58473AE6AE2 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11AFD8D0F91426A9AC0A533E5FE621F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DFBE0FBCA74FC9A2FB3C5E6B5C2AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC7F56AC78BA96E684B41B813BF2681 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DF68A7F133411B86243CE8463EA44 /* LICENSE */,
+				0607EA5237779F73ED83BD6ED96AB1CD /* README.md */,
+				41412E0E97522B95DF9697ED2A7C7FB0 /* WDNetWorking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1C6B367C18E04657AD73C4CBBB68199A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB5844D8F7F11343AB2944DC323402E9 /* WDNetWorking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1F485D985346CE76EF7BB8F9A7F482C7 /* WDHttpDemo */ = {
+			isa = PBXGroup;
+			children = (
+				93309007D8CA1D0552919B4D21503B77 /* login */,
+			);
+			name = WDHttpDemo;
+			path = WDNetWorking/Classes/WDHttpDemo;
+			sourceTree = "<group>";
+		};
+		6645396179A096F2894726D8C92260AA /* Pods-WDHttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				36F5CEEBD3E433F7F4E3716AB016EF5D /* Pods-WDHttpManager-acknowledgements.markdown */,
+				398A432685D515B26E6DE92F0CDD9D8B /* Pods-WDHttpManager-acknowledgements.plist */,
+				E50CDDF3BEEDE57DBA4EE08058E86BFF /* Pods-WDHttpManager-dummy.m */,
+				C2319DB48470DB441E7E06D764B98590 /* Pods-WDHttpManager.debug.xcconfig */,
+				E7F8ADE3A5192D85774677CB10788DE8 /* Pods-WDHttpManager.release.xcconfig */,
+			);
+			name = "Pods-WDHttpManager";
+			path = "Target Support Files/Pods-WDHttpManager";
+			sourceTree = "<group>";
+		};
+		6D7044C073EC0893B28AE9819D44412D /* WDHttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				22FDB4DD0BFCE3B95896988205D306D5 /* WDEncryptionManager.h */,
+				E7CB11FE3A595BBCCBBD6DF7F694ECA5 /* WDEncryptionManager.m */,
+				C6D521B598BBC565DB2AB786D844059D /* WDHttpErrorManager.h */,
+				677012B76044386EB7E6B48838B959E4 /* WDHttpErrorManager.m */,
+				1E48081087472C547AD2A8F9F37472C0 /* WDHttpHeader.h */,
+				3C12EB3432E3D8F8751D734DED23C20E /* WDHttpHelpr.h */,
+				CDA55E48ABB9427F828309126A600C81 /* WDHttpHelpr.m */,
+				9AD2F777DC9210021586D578B1C19565 /* WDHttpManager.h */,
+				5C9E4EDCEABB91D2E65570943D32D3BD /* WDHttpManager.m */,
+				9F2EFACF8A822EB1A5B57BFA132BF2D6 /* WDHttpPromptManager.h */,
+				6A9D93B9C313B1761553C1365428C000 /* WDHttpPromptManager.m */,
+			);
+			name = WDHttpManager;
+			path = WDNetWorking/Classes/WDHttpManager;
+			sourceTree = "<group>";
+		};
+		93309007D8CA1D0552919B4D21503B77 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				EA419714767989DD27D1A2943A48EE53 /* WDHttpLogin.h */,
+				D1B4B85AC8D17CC56369C61A8779C32B /* WDHttpLogin.m */,
+				7A62FF0E414274818E7A95AF5DE7168B /* WDHttpLoginUrl.h */,
+			);
+			name = login;
+			path = login;
+			sourceTree = "<group>";
+		};
+		AED7FAB3017A0620FA89DF52ECF650E2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5C291D951028FF14CEA9457355C9EF69 /* AFHTTPSessionManager.h */,
+				FFFC9558D09F30DD922CE58473AE6AE2 /* AFHTTPSessionManager.m */,
+				71D315B2290AAF0A21BCA54298EA2E06 /* AFNetworking.h */,
+				0774D52A19934A5953D8E6C28771FBA6 /* AFNetworkReachabilityManager.h */,
+				CA9763664ECB622B379F955AA69F8569 /* AFNetworkReachabilityManager.m */,
+				37CA68D9565FC4203403488A4D0CA4E1 /* AFSecurityPolicy.h */,
+				A2A345100C9D9F790EF991E89B099CDF /* AFSecurityPolicy.m */,
+				3EBEFC47642A65173D95048567D7CEC7 /* AFURLRequestSerialization.h */,
+				7EB06BF28B747C3CEAB4F92CD9CACD22 /* AFURLRequestSerialization.m */,
+				CEB0B3F969D1D86F1471D5A056BF6DB1 /* AFURLResponseSerialization.h */,
+				DEBE627990D731EDA68743546CB2A0BD /* AFURLResponseSerialization.m */,
+				3B98BF5724EAE8E194F8DBD8EFB66734 /* AFURLSessionManager.h */,
+				A5810BDE7CB0B6DCB8B9666F726F6C45 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = WDNetWorking/Classes/AFNetworking;
+			sourceTree = "<group>";
+		};
+		CB5844D8F7F11343AB2944DC323402E9 /* WDNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				AED7FAB3017A0620FA89DF52ECF650E2 /* AFNetworking */,
+				1BC7F56AC78BA96E684B41B813BF2681 /* Pod */,
+				E50981051B722F49A15A8B267CF89DB0 /* Support Files */,
+				1F485D985346CE76EF7BB8F9A7F482C7 /* WDHttpDemo */,
+				6D7044C073EC0893B28AE9819D44412D /* WDHttpManager */,
+			);
+			name = WDNetWorking;
+			path = ../lib/WDNetWorking;
+			sourceTree = "<group>";
+		};
+		CEA7027FB672532ED3AF91D1EA75EB90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF19F6AE223FD57C0F3D94406658E4D9 /* libPods-WDHttpManager.a */,
+				7E9EB56B28EE3C1B86BC583E5EC81CE9 /* libWDNetWorking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1C6B367C18E04657AD73C4CBBB68199A /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				CEA7027FB672532ED3AF91D1EA75EB90 /* Products */,
+				D152EDB300682FB973708DB760CC362F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D152EDB300682FB973708DB760CC362F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6645396179A096F2894726D8C92260AA /* Pods-WDHttpManager */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E50981051B722F49A15A8B267CF89DB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				884A8EDDCBAEDD33CFC66E0536F5A02B /* WDNetWorking.xcconfig */,
+				3A96F95D102779423C8D04E9A3C29D7B /* WDNetWorking-dummy.m */,
+				85EA0ADD406A5464EE4906C61F865D39 /* WDNetWorking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/WDNetWorking";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		158239C5F0A364E7039EF3BD5E52C204 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5428B9DBC0DEFD72948AA9D2D303D0BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9584D1F9A18F202B1DE1C2AB07F6A5EC /* AFHTTPSessionManager.h in Headers */,
+				25B9E9A15B53F65CD5CE71640A31CA5A /* AFNetworking.h in Headers */,
+				726E461B0EFB491377952017D4F6D11E /* AFNetworkReachabilityManager.h in Headers */,
+				DF0D50008E882FCC6BB54C3285E0A095 /* AFSecurityPolicy.h in Headers */,
+				9793020DEDA342E9770EE53E6CDAFDD7 /* AFURLRequestSerialization.h in Headers */,
+				B5C53E40848BD1172972768EF7A110CC /* AFURLResponseSerialization.h in Headers */,
+				E0830E63CD58F46286E74100C0F5190E /* AFURLSessionManager.h in Headers */,
+				39FA6538195164B5988CA2CD44D6CCA6 /* WDEncryptionManager.h in Headers */,
+				6954629D2F0ECFF52788A3E6235FDA8C /* WDHttpErrorManager.h in Headers */,
+				60EE54C04D0830D86C22BD085A6E1F9B /* WDHttpHeader.h in Headers */,
+				00776E74EC2AF33CAF77E6E17CB103CA /* WDHttpHelpr.h in Headers */,
+				7E64A331B283B38A4EFAA7F2C5AA1B3D /* WDHttpLogin.h in Headers */,
+				FEB05D71FC5C8697629A0953BC9B6CCB /* WDHttpLoginUrl.h in Headers */,
+				C42F67B39176E1D47B798988B993E821 /* WDHttpManager.h in Headers */,
+				84CC5760A7B931B426EA414CC76891B4 /* WDHttpPromptManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66D474E0F4A046153EA46AFEC0EA2995 /* WDNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD03E33B4B7A8B6A084FB709C77CDC18 /* Build configuration list for PBXNativeTarget "WDNetWorking" */;
+			buildPhases = (
+				5428B9DBC0DEFD72948AA9D2D303D0BE /* Headers */,
+				778573DE33A6F124191CB258ABC714C4 /* Sources */,
+				11AFD8D0F91426A9AC0A533E5FE621F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDNetWorking;
+			productName = WDNetWorking;
+			productReference = 7E9EB56B28EE3C1B86BC583E5EC81CE9 /* libWDNetWorking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C832288EAB17DED5DC25459846FC9B1E /* Pods-WDHttpManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156DBB56DF5AF1860401B2DCAC357B59 /* Build configuration list for PBXNativeTarget "Pods-WDHttpManager" */;
+			buildPhases = (
+				158239C5F0A364E7039EF3BD5E52C204 /* Headers */,
+				E44435536E602D4186F79ED2E39DE50F /* Sources */,
+				57DFBE0FBCA74FC9A2FB3C5E6B5C2AE8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C1250CDBA25E51B12B0422F84BA3D7C /* PBXTargetDependency */,
+			);
+			name = "Pods-WDHttpManager";
+			productName = "Pods-WDHttpManager";
+			productReference = DF19F6AE223FD57C0F3D94406658E4D9 /* libPods-WDHttpManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CEA7027FB672532ED3AF91D1EA75EB90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C832288EAB17DED5DC25459846FC9B1E /* Pods-WDHttpManager */,
+				66D474E0F4A046153EA46AFEC0EA2995 /* WDNetWorking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		778573DE33A6F124191CB258ABC714C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA9DE5D15408E9B67B5B5833FB51D93 /* AFHTTPSessionManager.m in Sources */,
+				BCDD31000C59DAEC98CA9484DED413EB /* AFNetworkReachabilityManager.m in Sources */,
+				4ABA4722F7B3155EFEB4A54ED439D1A8 /* AFSecurityPolicy.m in Sources */,
+				4ABC2B5241E459DAB5252580E655980A /* AFURLRequestSerialization.m in Sources */,
+				A91AC3A752482530F9186A9357C8FA49 /* AFURLResponseSerialization.m in Sources */,
+				932F6F992E8E609A788F9CCA3706DFD4 /* AFURLSessionManager.m in Sources */,
+				8F0FC0CB1F0A2E95DB4E6FB0AC6BFFFF /* WDEncryptionManager.m in Sources */,
+				8292D199E7904B6EECF3130FE5C10F26 /* WDHttpErrorManager.m in Sources */,
+				0302B192034BBC2390CBFF555222F143 /* WDHttpHelpr.m in Sources */,
+				55E01D08A6C9753CE3E31B7631D013D7 /* WDHttpLogin.m in Sources */,
+				E2BD9A871982540A6CB7D205ECA2EF3D /* WDHttpManager.m in Sources */,
+				E0C5598DBCF1F8C5C60DCFC16155B99E /* WDHttpPromptManager.m in Sources */,
+				F38074B203FC1799278AACE4A16EE301 /* WDNetWorking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44435536E602D4186F79ED2E39DE50F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3390FA04CDD036C50D17118B049085 /* Pods-WDHttpManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C1250CDBA25E51B12B0422F84BA3D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WDNetWorking;
+			target = 66D474E0F4A046153EA46AFEC0EA2995 /* WDNetWorking */;
+			targetProxy = 936545FB19963561DE7B4C43EF7EC1D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2303BA9E95CAF9D75D7F50C7335C9D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884A8EDDCBAEDD33CFC66E0536F5A02B /* WDNetWorking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WDNetWorking/WDNetWorking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WDNetWorking;
+				PRODUCT_NAME = WDNetWorking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F281531584478E1FE118E92C1F2D312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F8ADE3A5192D85774677CB10788DE8 /* Pods-WDHttpManager.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1CCF58F558ADE2D1D19651B96F289E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2319DB48470DB441E7E06D764B98590 /* Pods-WDHttpManager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D09A4954046C8E9C5F609E4D11B28E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884A8EDDCBAEDD33CFC66E0536F5A02B /* WDNetWorking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WDNetWorking/WDNetWorking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WDNetWorking;
+				PRODUCT_NAME = WDNetWorking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156DBB56DF5AF1860401B2DCAC357B59 /* Build configuration list for PBXNativeTarget "Pods-WDHttpManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1CCF58F558ADE2D1D19651B96F289E1 /* Debug */,
+				5F281531584478E1FE118E92C1F2D312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD03E33B4B7A8B6A084FB709C77CDC18 /* Build configuration list for PBXNativeTarget "WDNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09A4954046C8E9C5F609E4D11B28E64 /* Debug */,
+				2303BA9E95CAF9D75D7F50C7335C9D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

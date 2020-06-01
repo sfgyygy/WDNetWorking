@@ -1,0 +1,1 @@
+../../../../lib/WDNetWorking/WDNetWorking/Classes/AFNetworking/AFHTTPSessionManager.h

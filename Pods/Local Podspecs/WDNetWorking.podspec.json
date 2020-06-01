@@ -1,0 +1,22 @@
+{
+  "name": "WDNetWorking",
+  "version": "0.1.0",
+  "summary": "A short description of WDNetWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/244834793@qq.com/WDNetWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "244834793@qq.com": "244834793@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/244834793@qq.com/WDNetWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WDNetWorking/Classes/**/*"
+}
